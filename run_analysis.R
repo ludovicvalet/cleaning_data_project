@@ -133,6 +133,6 @@ for(i in c(1:30))##select subject
         }
     }
 
-write.table(temp_all,"mean_per_sub_act.txt")
+write.table(temp_all,"mean_per_sub_act.txt",row.name=FALSE)
 
 new<-read.csv("mean_per_sub_act.txt",sep=" ")
